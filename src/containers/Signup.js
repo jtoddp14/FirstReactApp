@@ -100,7 +100,7 @@ export default class Signup extends Component {
           bsSize="large"
           disabled={(!this.validateConfirmationForm()).toString()}
           type="submit"
-          isLoading={(!this.state.isLoading).toString()}
+          isLoading={(this.state.isLoading)}
           text="Verify"
           loadingText="Verifying…"
         />
